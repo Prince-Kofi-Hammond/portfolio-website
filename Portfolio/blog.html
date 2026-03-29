@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog — Prince Hammond</title>
+  <meta name="description" content="Technical blog posts, tutorials, and lessons from Prince Hammond." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css?v=1.1" />
+</head>
+
+<body>
+  <div id="cursor-glow" aria-hidden="true"></div>
+
+  <nav id="navbar">
+    <a href="index.html" class="nav-logo">PH</a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="projects.html" class="nav-link">Projects</a></li>
+      <li><a href="blog.html" class="nav-link active">Blog</a></li>
+      <li><a href="planner.html" class="nav-link">Planner</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="theme-btn" aria-label="Switch theme">
+        <svg class="theme-icon sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="5" />
+          <path
+            d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+        </svg>
+        <svg class="theme-icon moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+        </svg>
+        <svg class="theme-icon ocean" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 17c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1M2 7c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1" />
+        </svg>
+        <svg class="theme-icon sunset" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M17 18a5 5 0 0 0-10 0M12 2v1M4.22 4.22l.7.7M1 12h1M22 12h1M19.08 4.22l-.7.7M12 18v4M4.93 19.07l.7.7M18.36 19.07l-.7.7M2 14h20" />
+        </svg>
+      </button>
+      <button id="glass-toggle" class="glass-toggle-btn" aria-label="Toggle glass effect">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+          <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" opacity="0.3" />
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z" />
+        </svg>
+      </button>
+      <button id="mobile-menu-btn" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Theme picker dropdown -->
+  <div id="theme-picker" class="theme-picker">
+    <button class="theme-option" data-theme="dark"><span class="theme-swatch dark-swatch"></span> Dark</button>
+    <button class="theme-option" data-theme="light"><span class="theme-swatch light-swatch"></span> Light</button>
+    <button class="theme-option" data-theme="ocean"><span class="theme-swatch ocean-swatch"></span> Ocean</button>
+    <button class="theme-option" data-theme="sunset"><span class="theme-swatch sunset-swatch"></span> Sunset</button>
+  </div>
+
+  <main style="padding-top: 80px;">
+    <!-- ═══════════ BLOG ═══════════ -->
+    <section id="blog" class="section">
+      <div class="section-header">
+        <span class="section-tag">Blog</span>
+        <h2>Recent Posts</h2>
+        <p class="section-subtitle">Thoughts, tutorials, and lessons from the trenches of learning CS.</p>
+      </div>
+      <div class="blog-grid" id="blog-grid"></div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <p>&copy; 2026 Prince Hammond. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

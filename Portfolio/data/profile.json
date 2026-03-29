@@ -1,0 +1,38 @@
+{
+  "name": "Prince Hammond",
+  "role": "CS Student & Aspiring Developer",
+  "tagline": "I'm Prince Hammond, a CS student and aspiring developer who believes great code is both functional and beautiful.",
+  "bio": "I'm Prince Hammond, a Computer Science student who turns caffeine into code and ideas into interactive experiences. My journey into development started not in a classroom, but with the pure curiosity of wanting to build something that works. The first time I made a button change color with JavaScript, I was hooked. Now, I spend my days architecting clean interfaces, debugging with determination, and constantly asking, 'How can I make this faster, smoother, or more intuitive?' I thrive at the intersection of logic and creativity. Whether it's crafting responsive frontends with React or designing efficient backends with Node.js, I love the process of solving real problems with code.",
+  "email": "pcute7581@gmail.com",
+  "location": "Sunyani Technical University Campus",
+  "linkedin": "linkedin.com/in/princehammond",
+  "github": "github.com/princehammond",
+  "skills": ["Python", "JavaScript", "React", "Node.js", "SQL", "Git", "TypeScript", "Docker"],
+  "interests": [
+    { "name": "Law", "icon": "⚖️" },
+    { "name": "Politics", "icon": "🗳️" },
+    { "name": "Programming", "icon": "💻" },
+    { "name": "Critical Thinking", "icon": "🧠" },
+    { "name": "General Knowledge", "icon": "🌍" },
+    { "name": "Art", "icon": "🎨" },
+    { "name": "Science", "icon": "🔬" },
+    { "name": "History", "icon": "📜" },
+    { "name": "Problem Solving", "icon": "🧩" }
+  ],
+  "education": "BTECH Computer Science — Expected 2028",
+  "education_history": [
+    { "school": "Doayin Academy", "level": "Elementary School" },
+    { "school": "Navrongo Senior High School", "level": "SHS (General Science)" },
+    { "school": "Sunyani Technical University", "level": "University (Computer Science)" }
+  ],
+  "leadership_roles": [
+    { "role": "Dispensary Prefect", "context": "Navrongo SHS" },
+    { "role": "Drama Club Vice President", "context": "Navrongo SHS" },
+    { "role": "Red Cross President", "context": "Navrongo SHS" }
+  ],
+  "stats": {
+    "projects": 0,
+    "blogPosts": 0,
+    "languages": 5
+  }
+}
